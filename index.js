@@ -56,7 +56,7 @@ class Carousel {
     // Clean old data foreach
     this.#allPagesList.forEach((element) => {
       element.innerHTML = "()";
-      element.style.color = "black"w
+      element.style.color = "black"
     });
     // Add new (X)
     const currentPage = document.querySelector(`#page${this.#pageNumber}`);
